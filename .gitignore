@@ -1,0 +1,4 @@
+.idea/
+build/
+dist/
+tinymce_filebrowser_django.egg-info/
