@@ -1,5 +1,5 @@
 """
-django-tinymce-filebrowser
+tinymce-filebrowser-django
 -----------------
 Simple django-based file uploader and viewer for TinyMCE
 """
@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 setup(
     name='Tinymce-filebrowser-django',
     version='1.0.0',
-    url='https://github.com/ituxka/django-tinymce-filebrowser',
+    url='https://github.com/ituxka/tinymce-filebrowser-django',
     license='MIT License',
     author='Nikita Sologub',
     author_email='ituxka@gmail.com',

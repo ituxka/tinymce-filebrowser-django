@@ -1,14 +1,14 @@
-django-tinymce-filebrowser
+tinymce-filebrowser-django
 ===
 
-**django-tinymce-filebrowser** is a simple and flexible tool for managing your files and images from TinyMCE editor.
+**tinymce-filebrowser-django** is a simple and flexible tool for managing your files and images from TinyMCE editor.
 
 Quickstart:
 ===
 
-Install django-tinymce-filebrowser:
+Install tinymce-filebrowser-django:
 
-    $ pip install django-tinymce-filebrowser
+    $ pip install tinymce-filebrowser-django
 
 Add tinymce and tinymce_filebrowser to INSTALLED_APPS in settings.py for your project:
 
@@ -18,7 +18,7 @@ Add tinymce and tinymce_filebrowser to INSTALLED_APPS in settings.py for your pr
         'tinymce_filebrowser',
     )
 
-Migrate django-tinymce-filebrowser models
+Migrate tinymce-filebrowser-django models
     
     $ python manage.py migrate tinymce_filebrowser
     
@@ -56,7 +56,7 @@ In your admin.py:
 
     admin.site.register(MyModel, MyModelAdmin)
 
-**django-tinymce-filebrowser** uses django staticfiles.
+**tinymce-filebrowser-django** uses django staticfiles.
 
 
 If You do not use django-tinymce package then add next lines to TinyMCE init:
