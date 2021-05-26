@@ -7,15 +7,15 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='Tinymce-filebrowser-django',
-    version='1.0.0',
+    name='tinymce-filebrowser-django',
+    version='1.0.3',
     url='https://github.com/ituxka/tinymce-filebrowser-django',
     license='MIT License',
     author='Nikita Sologub',
     author_email='ituxka@gmail.com',
     description='Django-based file uploader and viewer for TinyMCE',
     keywords="django tinymce fileupload",
-    long_description=__doc__,
+    long_description='Django-based file uploader and viewer for TinyMCE',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
